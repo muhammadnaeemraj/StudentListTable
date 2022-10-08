@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+div {
+    display: inline-block;
+}
+
+#table {
+    display: block;
+    margin-top: 20px;
+    border: 2px solid gray;
+    background-color: rgb(38, 103, 200);
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td {
+    text-align: start;
+}
