@@ -1,34 +1,42 @@
 let myTable = document.querySelector("#table");
 
 let headers = ["Name", "Roll No", "Class"];
+headers.push("Subject");
 
 let Student = [
   {
     name: "Muhammad Naeem",
     rollno: 0012,
     class: "Mphil",
+    subject: "BSCS",
   },
   {
     name: "Muhammad Ahsan",
     rollno: 0922,
     class: "Intermediate",
+    subject: "ICS",
   },
   {
     name: "Muhammad Ahmad",
     rollno: 1542,
     class: "Matric",
+    subject: "Quran Majeed",
   },
   {
     name: "Muhammad Ali",
     rollno: 2312,
     class: "Mphil",
+    subject: "Artificial Inteligence",
   },
   {
     name: "Layeba",
     rollno: 0442,
-    class: "BS English",
+    class: "BS Houner",
+    subject: "BS English",
   },
 ];
+// Change the value of the object
+Student[4].name = "Muhammad Umer";
 
 let table = document.createElement("table");
 let headerRow = document.createElement("tr");
